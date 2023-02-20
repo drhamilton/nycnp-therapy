@@ -14,7 +14,6 @@ export default function Home() {
 
         <a
           href="https://app2.luminello.com/joseruizaprn"
-          target="_blank"
           className={styles.button}
         >
           Book a consultation

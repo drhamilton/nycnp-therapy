@@ -5,6 +5,32 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+
+.header {
+  font-size: 5rem;
+}
+
+.button {
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 2.5rem;
+  border: 2px solid #0a0a0a;
+  cursor: pointer;
+  transition: color 100ms;
+}
+
+.button:hover {
+  background: #0a0a0a;
+  color: #fafafa;
 }
 
 .description {
@@ -175,6 +201,22 @@
 
 /* Mobile and Tablet */
 @media (max-width: 1023px) {
+  .header {
+    font-size: 3rem;
+  }
+
+  .button {
+    font-size: .8rem;
+  }
+
+  .main {
+    padding: 1rem;
+  }
+  
+  .headerContainer {
+
+  }
+
   .content {
     padding: 4rem;
   }

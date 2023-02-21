@@ -1,24 +1,10 @@
 import Image from "next/image";
-import { Amiri } from "@next/font/google";
-import styles from "./page.module.css";
-
-const amiri = Amiri({ subsets: ["latin"], weight: "400" });
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.headerContainer}>
-        <div className={amiri.className}>
-          <h1 className={styles.header}>NYC NP Therapy</h1>
-        </div>
-
-        <a
-          href="https://app2.luminello.com/joseruizaprn"
-          className={styles.button}
-        >
-          Book a consultation
-        </a>
-      </div>
+    <main>
+      <h1>NYC NP Therapy</h1>
+      <a href="https://app2.luminello.com/joseruizaprn">Book a consultation</a>
 
       {/* <Image
         className={styles.logo}

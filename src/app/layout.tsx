@@ -18,7 +18,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className={`${amiri.variable} font-serif`}>{children}</body>
+      <body className={`${amiri.variable} p-12 font-serif`}>{children}</body>
     </html>
   );
 }

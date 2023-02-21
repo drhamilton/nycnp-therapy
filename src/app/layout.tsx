@@ -3,7 +3,7 @@ import { Amiri } from "@next/font/google";
 const amiri = Amiri({
   subsets: ["latin"],
   variable: "--font-amiri",
-  weight: "400",
+  weight: ["400", "700"],
 });
 
 export default function RootLayout({
@@ -18,7 +18,8 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className={`${amiri.variable} bg-orange-50 p-12 font-serif`}>
+      <body className={`${amiri.variable} bg-orange-100 font-serif`}>
+        <nav className="h-14 border-b-2 border-b-orange-800"></nav>
         {children}
       </body>
     </html>

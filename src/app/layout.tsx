@@ -30,7 +30,7 @@ export default function RootLayout({
               <span>Suite 205</span>
               <span className="mb-4">New York, NY 10012</span>
 
-              <a className="mb-8 hover:underline" href="tel:+12128449259">
+              <a className="mb-8 hover:underline" href="tel:+12129511795">
                 212.951.1795
               </a>
               <a className="hover:underline" href="mailto:caringets@gmail.com">

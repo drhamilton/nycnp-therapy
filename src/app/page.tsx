@@ -46,7 +46,7 @@ export default function Home() {
         <h2 className="mb-8 text-4xl font-bold underline underline-offset-8">
           Pricing
         </h2>
-        <p className="text-lg font-semibold">
+        <p className="max-w-3xl text-lg font-semibold">
           Our goal is to provide mental health services that are both accessible
           and affordable to all. We have developed a sliding scale so that
           everyone is able to gain access to the therapy they want without

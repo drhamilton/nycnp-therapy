@@ -5,8 +5,8 @@ export default function Home() {
     <main className="pb-28">
       <section className="container mx-auto border-b-2 border-b-orange-900 px-12 pt-20 pb-52">
         <header className="mb-8">
-          <h1 className="mb-2 max-w-xs font-serif text-4xl font-bold text-teal-900 transition-opacity md:max-w-md md:text-6xl lg:max-w-2xl lg:text-8xl">
-            NYC NP In Psychiatry PC
+          <h1 className="mb-2 max-w-xs font-serif text-4xl font-bold text-teal-900 transition-opacity md:max-w-md md:text-6xl lg:max-w-3xl lg:text-7xl">
+            NYC NP In PSYCHIATRY PC
           </h1>
           <p className="font-sans text-lg font-semibold text-orange-900 underline underline-offset-1">
             Offering Compassionate Mental Health Care in the Heart of NYC
@@ -41,6 +41,61 @@ export default function Home() {
           <li>Certified Buprenorphine Provider</li>
           <li>NYS Provider of Medical Use of Marijuana</li>
         </ul>
+      </section>
+      <section className="container mx-auto border-b-2 border-b-orange-900 px-12 pb-32 pt-28">
+        <h2 className="mb-8 text-4xl font-bold underline underline-offset-8">
+          About me
+        </h2>
+        <div className="max-w-4xl text-lg font-semibold [&>p]:mb-8">
+          <p>
+            My name is Jose Ruiz and I am a board certified psychiatric nurse
+            practitioner (PMHNP-BC) with over 20 years of experience. I received
+            my education at Columbia University and New York University. My
+            approach to therapy is eclectic in nature and grounded in
+            evidence-based clinical research. I use a variety of therapeutic
+            lenses to view my patients' emotional experiences to better
+            understand their perspectives and help them identify ways to better
+            manage their emotions and behaviors with respects to their mental
+            health.
+          </p>
+          <p>
+            My patients come to me with myriad mental health diagnoses and
+            chronic medical conditions. These conditions, include, but are not
+            limited to, anxiety, depression, anger management, conflict
+            resolution, intimacy, social skills and professional performance.
+          </p>
+          <figure className="ml-4 sm:p-8 lg:float-right">
+            <Image
+              alt="A picture of our office"
+              src="/images/office.jpg"
+              width="450"
+              height="317"
+            />
+            <figcaption className="text-center">
+              Our office located at 177 Prince St.
+            </figcaption>
+          </figure>
+          <p>
+            My private practice spans over 20 years and my training consists of
+            psychodynamic therapy, Cognitive Behavior Therapy (CBT),
+            Motivational Interviewing (MI) and Emotional Focus Therapy (EFT). I
+            work with adults, children, couples and families from a broad array
+            of cultural and ethnic backgrounds and sexual orientations.
+          </p>
+          <p>
+            My work, as I see it, is to facilitate an experience that will allow
+            a patient to explore and gain access to parts of themselves not
+            previously available. The therapeutic journey starts with a trusting
+            environment that propels an in-depth exploration of one’s history,
+            family dynamics, relational patterns and perceived self-image.
+            Inherent in this process is the enhancement and utilization of an
+            emotional vocabulary from which one can learn how to effectively
+            express themselves. The therapeutic process is not an easy one, and
+            is at times uncomfortable, but with time discomfort gives way to
+            happiness and fulfillment.
+          </p>
+          <p>Hablamos Español</p>
+        </div>
       </section>
       <section className="container mx-auto border-b-2 border-b-orange-900 px-12 pb-32 pt-28">
         <h2 className="mb-8 text-4xl font-bold underline underline-offset-8">

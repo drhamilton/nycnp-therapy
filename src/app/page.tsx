@@ -53,7 +53,7 @@ export default function Home() {
             my education at Columbia University and New York University. My
             approach to therapy is eclectic in nature and grounded in
             evidence-based clinical research. I use a variety of therapeutic
-            lenses to view my patients' emotional experiences to better
+            lenses to view my patients&apos; emotional experiences to better
             understand their perspectives and help them identify ways to better
             manage their emotions and behaviors with respects to their mental
             health.

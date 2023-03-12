@@ -38,16 +38,26 @@ export default function Home() {
         >
           Services Offered
         </h2>
-        <ul className="list-inside list-disc text-lg font-semibold">
-          <li>Prescribing medications</li>
-          <li>Providing comprehensive psychiatric evaluations</li>
-          <li>Diagnosing mental disorders</li>
-          <li>Providing therapy</li>
-          <li>Management of mental health care</li>
-          <li>Medication management</li>
-          <li>Certified Buprenorphine Provider</li>
-          <li>NYS Provider of Medical Use of Marijuana</li>
-        </ul>
+        <div className="flex justify-between">
+          <ul className="list-inside list-disc text-lg font-semibold">
+            <li>Prescribing medications</li>
+            <li>Providing comprehensive psychiatric evaluations</li>
+            <li>Diagnosing mental disorders</li>
+            <li>Providing therapy</li>
+            <li>Management of mental health care</li>
+            <li>Medication management</li>
+            <li>Certified Buprenorphine Provider</li>
+            <li>NYS Provider of Medical Use of Marijuana</li>
+          </ul>{" "}
+          <figure className="m-4 hidden border-2 border-orange-900 md:inline-flex">
+            <Image
+              alt="Lucy from Peanuts at her desk"
+              src="/images/lucy.png"
+              width="300"
+              height="200"
+            />
+          </figure>
+        </div>
       </section>
       <section className="container mx-auto border-b-2 border-b-orange-900 px-12 pb-32 pt-28">
         <h2

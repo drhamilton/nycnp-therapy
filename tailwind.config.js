@@ -11,6 +11,9 @@ module.exports = {
       fontFamily: {
         serif: ['var(--font-amiri)', ...fontFamily.serif],
       },
+      backgroundImage: {
+        'hero': "url('/images/cover.jpg')"
+      }
     },
   },
   plugins: [],

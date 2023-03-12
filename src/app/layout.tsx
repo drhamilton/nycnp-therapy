@@ -21,7 +21,25 @@ export default function RootLayout({
       <body
         className={`${amiri.variable} bg-orange-100 font-serif text-teal-900`}
       >
-        <nav className="mb-12 h-14 border-b-2 border-b-orange-800"></nav>
+        <nav className="border-b-2 border-b-orange-800 p-4">
+          <ul className="flex-center flex gap-4 font-sans font-semibold">
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#work">Work</a>
+            </li>
+            <li>
+              <a href="#pricing">Pricing</a>
+            </li>
+            <li>
+              <a href="#insurance">Insurance</a>
+            </li>
+          </ul>
+        </nav>
         {children}
         <footer id="footer" className="h-80 bg-teal-900 pt-8">
           <div className="container mx-auto px-12 font-sans text-lg text-orange-100">

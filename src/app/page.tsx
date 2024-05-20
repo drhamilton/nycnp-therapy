@@ -8,7 +8,7 @@ export default function Home() {
           <div className="m-auto flex w-11/12 flex-col bg-blue-700 opacity-90 lg:w-9/12 xl:w-6/12">
             <div className="m-2 border-4 border-yellow-300 py-24">
               <h1 className="mx-auto mb-4 max-w-xl font-sans text-4xl font-semibold uppercase tracking-wider text-gray-50">
-                Empowered Therapeutic Services
+                NYC NP IN PSYCHIATRY PC
               </h1>
               <p className="font-body mx-auto mb-8 text-center font-sans text-gray-50">
                 Therapy for your emotional journey

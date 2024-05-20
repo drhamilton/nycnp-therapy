@@ -3,30 +3,30 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <section className="h-screen border-b-2 border-b-orange-900">
-        <div className="h-full w-full bg-hero bg-cover p-12">
-          <div className="border-2 border-orange-900 bg-orange-100/80 px-12 py-32">
-            <header className="mb-8">
-              <h1 className="mb-2 max-w-xs font-serif text-4xl font-bold text-teal-900 transition-opacity md:max-w-md md:text-6xl lg:max-w-3xl lg:text-7xl">
-                NYC NP In PSYCHIATRY PC
+      <section className="flex h-screen flex-col bg-sky-900 text-center">
+        <div className="relative m-auto flex h-full w-full bg-hero bg-cover">
+          <div className="m-auto flex w-11/12 flex-col bg-blue-700 opacity-90 lg:w-9/12 xl:w-6/12">
+            <div className="m-2 border-4 border-yellow-300 py-24">
+              <h1 className="mx-auto mb-4 max-w-xl text-4xl font-semibold uppercase tracking-wider text-gray-50">
+                Empowered Therapeutic Services
               </h1>
-              <p className="font-sans text-lg font-semibold text-orange-900 underline underline-offset-1">
-                Offering Compassionate Mental Health Care in the Heart of NYC
+              <p className="font-body mx-auto mb-8 text-center text-gray-50">
+                Therapy for your emotional journey
               </p>
-            </header>
-            <div className="flex flex-col gap-3 md:flex-row">
-              <a
-                className="block w-fit rounded-full border-2 border-orange-800 px-4 py-2 font-sans font-bold text-teal-900 shadow hover:border-teal-800 hover:bg-teal-800 hover:text-orange-200"
-                href="tel:+12129511795"
-              >
-                212.951.1795
-              </a>
-              <a
-                className="block w-fit rounded-full border-2 border-orange-800 px-4 py-2 font-sans font-bold text-teal-900 shadow hover:border-teal-800 hover:bg-teal-800 hover:text-orange-200"
-                href="mailto:caringets@gmail.com"
-              >
-                caringets@gmail.com
-              </a>
+              <div className="flex flex-col justify-center gap-3 md:flex-row">
+                <a
+                  className="block w-fit rounded-full border-2 border-orange-800 bg-orange-100 px-4 py-2 font-sans font-bold text-teal-900 shadow hover:border-teal-800 hover:bg-orange-100"
+                  href="tel:+12129511795"
+                >
+                  212.951.1795
+                </a>
+                <a
+                  className="block w-fit rounded-full border-2 border-orange-800 bg-orange-100 px-4 py-2 font-sans font-bold text-teal-900 shadow hover:border-teal-800 hover:bg-orange-100"
+                  href="mailto:caringets@gmail.com"
+                >
+                  caringets@gmail.com
+                </a>
+              </div>
             </div>
           </div>
         </div>

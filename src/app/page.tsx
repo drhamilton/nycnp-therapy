@@ -188,19 +188,11 @@ export default function Home() {
         <ul className="list-inside list-disc text-lg font-semibold">
           <li>1199</li>
           <li>Aetna</li>
-          <li>Anthem</li>
-          <li>Beacon</li>
-          <li>Blue Cross Blue Shield</li>
           <li>Cigna</li>
           <li>Fidelis</li>
-          <li>GHI Emblem</li>
-          <li>Magnum Care</li>
-          <li>Medicaid</li>
           <li>Metroplus</li>
-          <li>Oscar Health</li>
           <li>Oxford</li>
           <li>United Healthcare</li>
-          <li>VNS</li>
         </ul>
       </section>
     </main>

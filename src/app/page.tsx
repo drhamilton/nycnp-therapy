@@ -7,10 +7,10 @@ export default function Home() {
         <div className="relative m-auto flex h-full w-full bg-hero bg-cover">
           <div className="m-auto flex w-11/12 flex-col bg-blue-700 opacity-90 lg:w-9/12 xl:w-6/12">
             <div className="m-2 border-4 border-yellow-300 py-24">
-              <h1 className="mx-auto mb-4 max-w-xl text-4xl font-semibold uppercase tracking-wider text-gray-50">
+              <h1 className="mx-auto mb-4 max-w-xl font-sans text-4xl font-semibold uppercase tracking-wider text-gray-50">
                 Empowered Therapeutic Services
               </h1>
-              <p className="font-body mx-auto mb-8 text-center text-gray-50">
+              <p className="font-body mx-auto mb-8 text-center font-sans text-gray-50">
                 Therapy for your emotional journey
               </p>
               <div className="flex flex-col justify-center gap-3 md:flex-row">

@@ -3,25 +3,25 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <section className="flex h-screen flex-col bg-sky-900 text-center">
+      <section className="flex h-96 flex-col bg-sky-900 text-center md:h-screen">
         <div className="relative m-auto flex h-full w-full bg-hero bg-cover">
           <div className="m-auto flex w-11/12 flex-col bg-blue-700 opacity-90 lg:w-9/12 xl:w-6/12">
-            <div className="m-2 border-4 border-yellow-300 py-24">
-              <h1 className="mx-auto mb-4 max-w-xl font-sans text-4xl font-semibold uppercase tracking-wider text-gray-50">
+            <div className="m-2 border-4 border-yellow-300 py-12 md:py-24">
+              <h1 className="mx-auto mb-4 max-w-xl font-sans text-2xl font-semibold uppercase tracking-wider text-gray-50 md:text-4xl">
                 NYC NP IN PSYCHIATRY PC
               </h1>
               <p className="font-body mx-auto mb-8 text-center font-sans text-gray-50">
                 Therapy for your emotional journey
               </p>
-              <div className="flex flex-col justify-center gap-3 md:flex-row">
+              <div className="flex justify-center gap-3 font-sans text-xs font-bold text-teal-900 hover:border-teal-800 md:flex-row md:text-base">
                 <a
-                  className="block w-fit rounded-full border-2 border-orange-800 bg-orange-100 px-4 py-2 font-sans font-bold text-teal-900 shadow hover:border-teal-800 hover:bg-orange-100"
+                  className="block w-fit rounded-full border-2 border-orange-800 bg-orange-100 px-4 py-2 shadow hover:bg-orange-100"
                   href="tel:+12129511795"
                 >
                   212.951.1795
                 </a>
                 <a
-                  className="block w-fit rounded-full border-2 border-orange-800 bg-orange-100 px-4 py-2 font-sans font-bold text-teal-900 shadow hover:border-teal-800 hover:bg-orange-100"
+                  className="block w-fit rounded-full border-2 border-orange-800 bg-orange-100 px-4 py-2 shadow hover:bg-orange-100"
                   href="mailto:caringets@gmail.com"
                 >
                   caringets@gmail.com
@@ -31,7 +31,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="container mx-auto border-b-2 border-b-orange-900 px-12 pb-32 pt-28">
+      <section className="container mx-auto border-b-2 border-b-orange-900 p-12 md:px-12 md:pb-32 md:pt-28">
         <h2
           id="services"
           className="mb-8 text-4xl font-bold underline underline-offset-8"
@@ -59,7 +59,7 @@ export default function Home() {
           </figure>
         </div>
       </section>
-      <section className="container mx-auto border-b-2 border-b-orange-900 px-12 pb-32 pt-28">
+      <section className="container mx-auto border-b-2 border-b-orange-900 p-12 md:px-12 md:pb-32 md:pt-28">
         <h2
           id="about"
           className="mb-8 text-4xl font-bold underline underline-offset-8"
@@ -117,7 +117,7 @@ export default function Home() {
           <p>Hablamos Español</p>
         </div>
       </section>{" "}
-      <section className="container mx-auto border-b-2 border-b-orange-900 px-12 pb-32 pt-28">
+      <section className="container mx-auto border-b-2 border-b-orange-900 p-12 md:px-12 md:pb-32 md:pt-28">
         <h2
           id="work"
           className="mb-8 text-4xl font-bold underline underline-offset-8"
@@ -160,7 +160,7 @@ export default function Home() {
           couples or children/adolescents.
         </p>
       </section>
-      <section className="container mx-auto border-b-2 border-b-orange-900 px-12 pb-32 pt-28">
+      <section className="container mx-auto border-b-2 border-b-orange-900 p-12 md:px-12 md:pb-32 md:pt-28">
         <h2
           id="pricing"
           className="mb-8 text-4xl font-bold underline underline-offset-8"
@@ -178,7 +178,7 @@ export default function Home() {
           couples or children/adolescents.
         </p>
       </section>
-      <section className="container mx-auto  px-12 pb-32 pt-28">
+      <section className="container mx-auto p-12 md:px-12 md:pb-32 md:pt-28">
         <h2
           id="insurance"
           className="mb-8 text-4xl font-bold underline underline-offset-8"
@@ -190,6 +190,7 @@ export default function Home() {
           <li>Aetna</li>
           <li>Cigna</li>
           <li>Fidelis</li>
+          <li>Health First</li>
           <li>Metroplus</li>
           <li>Oxford</li>
           <li>United Healthcare</li>

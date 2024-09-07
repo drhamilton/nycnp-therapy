@@ -126,39 +126,21 @@ export default function Home() {
         </h2>
         <h3 className="mb-4 font-sans text-2xl font-bold">Individuals</h3>{" "}
         <p className="mb-8 max-w-3xl indent-8 text-lg font-semibold">
-          Our goal is to provide mental health services that are both accessible
-          and affordable to all. We have developed a sliding scale so that
-          everyone is able to gain access to the therapy they want without
-          compromising their wallet. Additionally, we are continually adding new
-          insurance companies in an effort to provide further financial
-          assistance. For pricing, psychiatric comprehensive evaluations are
-          $500, while regular sessions cost $375 per person - be it individual,
-          couples or children/adolescents.
-        </p>
+		I help my patients identify ways in which they can feel empowered to better manage their emotions and behaviors with respect to their mental health care. Utilizing my various therapeutic lenses to help my patients identify patterns and maladaptive behaviors that have caused them to be confused, in pain and the overwhelming feelings of loss, together we figure out these emotional landmines and set forth a plan to avoid setting them off. I also work with patients on issues around anger management/ conflict resolution, anxiety, depression, intimacy and social skills building.  Inherent in this process, is the enhancement and utilization of an emotional vocabulary from which this population can effectively express themselves.
+	</p>
         <h3 className="mb-4 font-sans text-2xl font-bold">Couples</h3>{" "}
         <p className="mb-8 max-w-3xl indent-8 text-lg font-semibold">
-          Our goal is to provide mental health services that are both accessible
-          and affordable to all. We have developed a sliding scale so that
-          everyone is able to gain access to the therapy they want without
-          compromising their wallet. Additionally, we are continually adding new
-          insurance companies in an effort to provide further financial
-          assistance. For pricing, psychiatric comprehensive evaluations are
-          $500, while regular sessions cost $375 per person - be it individual,
-          couples or children/adolescents.
-        </p>
+
+Similarly, I work with couples on building an emotional foundation from which to look at patterns that are affecting their relationship. The focus is building an emotional awareness of the couple's emotional past and identifying how their maladaptive behaviors  (ie emotional distancing, lack of acceptance, awareness and understanding, infidelity-in some cases), are all ways in which the couple is currenting expressing themselves and thus shaping the couples experience. The goal of the therapy is to identify such patterns , transform these behaviors into emotional success stories by creating a language that the couple can utilize to better communicate their actual feelings of upset and concerns. In doing so, the couple obtains a better understanding of themselves, their partner, and the relationship.
+
+	</p>
+
         <h3 className="mb-4 font-sans text-2xl font-bold">
-          Children & Adolescents
+          Children (AGES 6-17)
         </h3>{" "}
         <p className="mb-4 max-w-3xl indent-8 text-lg font-semibold">
-          Our goal is to provide mental health services that are both accessible
-          and affordable to all. We have developed a sliding scale so that
-          everyone is able to gain access to the therapy they want without
-          compromising their wallet. Additionally, we are continually adding new
-          insurance companies in an effort to provide further financial
-          assistance. For pricing, psychiatric comprehensive evaluations are
-          $500, while regular sessions cost $375 per person - be it individual,
-          couples or children/adolescents.
-        </p>
+My work with children is anchored in making the child feel safe, seen and heard. Inherent in this process, is to create a "no-judgement" space. Thus, allowing the child to express themselves without limitations. A goal of the therapy is to create a fostering environment from which children can utilization of their emotional vocabulary feel empowered by the process of therapy.
+	</p>
       </section>
       <section className="container mx-auto border-b-2 border-b-orange-900 p-12 md:px-12 md:pb-32 md:pt-28">
         <h2

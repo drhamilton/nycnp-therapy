@@ -155,7 +155,7 @@ export default function Home() {
           relationship.
         </p>
         <h3 className="mb-4 font-sans text-2xl font-bold">
-          Children (AGES 6-17)
+          Children (ages 6-17)
         </h3>{" "}
         <p className="mb-4 max-w-3xl indent-8 text-lg font-semibold">
           My work with children is anchored in making the child feel safe, seen
